@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulir PMB</title>
+    <link rel="stylesheet" href="style_rio.css">
+</head>
+<body>
+	<img src="kopsurattt.jpeg" width="100%">
+	<a href="form"></a><h1 class="judulatas">Formulir Pendaftaran Online Mahasiswa Baru</h1>
+	<form class="form1">
+		<tr>
+			<b>Data Diri</b>
+            </tr>
+		<fieldset class="kolom1">
+			<table class="bagian1">
+				<tbody>
+				<tr>
+					<th>1.</th>
+					<th>Nama</th>
+					<td>:</td>
+					<td><input type="text" name="nama" maxlength="30" placeholder="Masukan Nama" class="isi"></td>
+				</tr>
+				<tr>
+					<th>2.</th>
+					<th>Tanggal Ujian</th>
+					<td>:</td>
+					<td><input type="date" name="tgl_ujian" placeholder="Tanggal Ujian" class="isi"></td>
+				</tr>
+				<tr>
+					<th>3.</th>
+					<th>Jenis Kelamin</th>
+					<td>:</td>
+					<td>
+						<input type="radio" name="jk" value="Laki-laki"> Laki-laki <br>
+						<input type="radio" name="jk" value="Perempuan"> Perempuan
+					</td>
+				</tr>
+				<tr>
+					<th>4.</th>
+					<th>Jenjang/Jurusan yang dipilih</th>
+					<td>:</td>
+					<td>
+						<table border="1" cellpadding="7">
+                            <thead>
+                              <tr>
+                                <th rowspan="2">JENJANG</th>
+                                <th colspan="2">PROGRAM STUDI</th>
+                              </tr>
+                              <tr>
+                                <th>Pagi (Reguler)</th>
+                                <th>Sore (Karyawan)</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th>D3 (Diploma 3)</th>
+                                <td>
+                                  <input type="radio" name="Diploma">
+                                  Manajemen Informatika<br>
+                                  <input type="radio" name="Diploma">
+                                  Komputerisasi Akuntasi
+                                </td>
+                                <td>
+                                    <input type="radio" name="Diploma">
+                                    Manajemen Informatika<br>
+                                    <input type="radio" name="Diploma">
+                                    Komputerisasi Akuntasi
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>S1 (Sarjana 1)</th>
+                                <td>
+                                  <input type="radio" name="strata">
+                                  Teknik Informatika<br>
+                                  <input type="radio" name="strata">
+                                  Rekayasa Perangkat Lunak<br>
+                                  <input type="radio" name="strata">
+                                  Sistem Informasi
+                                </td>
+                                <td>
+                                    <input type="radio" name="strata">
+                                    Teknik Informatika<br>
+                                    <input type="radio" name="strata">
+                                    Rekayasa Perangkat Lunak<br>
+                                    <input type="radio" name="strata">
+                                    Sistem Informasi
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+					</td>
+				</tr>
+				<tr>
+					<th></th>
+					<th>Waktu Kuliah</th>
+					<td>:</td>
+					<td>
+						<select name="waktu" class="isi">
+						<option value=""></option>
+						<option value="Pagi">Pagi</option>
+						<option value="sorei">Sore</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th></th>
+					<th >Ukuran Jaket</th>
+					<td>:</td>
+					<td>
+						<select name="jaket" class="isi">
+						<option value=""></option>
+						<option value="Small">Small</option>
+						<option value="Medium">M</option>
+						<option value="Large">L</option>
+						<option value="Extra Large">XL</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th></th>
+					<th>Sistem Pembayaran</th>
+					<td>:</td>
+					<td>
+						<input type="radio" name="sistem_pb" value="Angsuran"> Angsuran <br>
+						<input type="radio" name="sistem_pb" value="Tunai"> Tunai
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+		<br>
+            <tr>
+			<b>Data Pribadi</b>
+            </tr>
+            <fieldset class="kolom2">
+			<table>
+				<tr>
+					<th width="9">6.</th>
+					<th>Agama</th>
+					<td>:</td>
+					<td><input type="text" name="agama" maxlength="14" placeholder="agama" class="isi"></td>
+				</tr>
+				<tr>
+					<th>7.</th>
+					<th>Tempat,</th>
+					<td>:</td>
+					<td><input type="text" name="tempat_lahir" maxlength="14" placeholder="tempat tinggal" class="isi"></td>
+				</tr>
+				<tr>
+					<th></th>
+					<th>Tanggal Lahir</th>
+					<td>:</td>
+					<td><input type="date" name="tanggal_lahir" class="isi"></td>
+				</tr>
+				<tr>
+					<th>8.</th>
+					<th>Alamat dan No. Rumah</th>
+					<td>:</td>
+					<td><textarea name="alamat" class="isi"></textarea></td>
+				</tr>
+				<tr>
+					<th></th>
+					<th>RT/RW</th>
+					<td>:</td>
+					<td><input type="text" name="rtrw" maxlength="10" placeholder="RT/RW" class="isi"></td>
+				</tr>
+				<tr>
+					<th></th>
+					<th>Kota/Kabupaten</th>
+					<td>:</td>
+					<td><input type="text" name="kota/kabupaten" maxlength="6" placeholder="Kota" class="isi"></td>
+				</tr>
+				<tr>
+					<th></th>
+					<th>Kode Pos</th>
+					<td>:</td>
+					<td><input type="text" name="kode_pos" maxlength="5" placeholder="Masukan Kode Pos" class="isi"></td>
+				</tr>
+				<tr>
+					<th>9.</th>
+					<th>Nomor Telepon Rumah / HP</th>
+					<td>:</td>
+					<td><input type="text" name="no_telp" maxlength="15" placeholder="No rumah" class="isi"></td>
+				</tr>
+				<tr>
+					<th>10. </th>
+					<th>Kewarganegaraan</th>
+					<td>:</td>
+					<td>
+						<input type="radio" name="kewarganegaraan" value="WNI"> WNI <br>
+						<input type="radio" name="kewarganegaraan" value="WNA"> WNA
+					</td>
+				</tr>
+				<tr>
+					<th>11</th>
+					<th>Gol. Darah</th>
+					<td>:</td>
+					<td>
+						<select name="goldarah" class="isi">
+						<option value=""></option>
+						<option value="A">A</option>
+						<option value="B">B</option>
+						<option value="AB">AB</option>
+						<option value="O">O</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>12.</th>
+					<th>Nama Orang tua / Wali</th>
+					<td>:</td>
+					<td><input type="text" name="namaOrtu" maxlength="30" class="isi"></td>
+				</tr>
+				<tr>
+					<th></th>
+					<th>Pekerjaan</th>
+					<td>:</td>
+					<td>
+						<select name="pekerjaanOrtuWali" class="isi">
+						<option value=""></option>
+						<option value="PNS/TNI/POLRI">PNS/TNI/POLRI</option>
+						<option value="Swasta">Swasta</option>
+						<option value="Wiraswasta">Wiraswasta</option>
+						<option value="Lain-lain">Lain-lain</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+		<br>
+            <tr>
+       		<b class="judul2">PENDIDIKAN TERAKHIR</b>
+            </tr>
+		<fieldset class="kolom3">
+			<table>
+				<tr>
+					<th>13. </th>
+					<th>Asal SMA/SMK/Perguruan Tinggi</th>
+					<td>:</td>
+					<td><input type="text" name="asal_sekolah" maxlength="14" placeholder="Asal sekolah" class="isi"></td>
+				</tr>
+				<tr>
+					<th></th>
+					<th>Jurusan</th>
+					<td>:</td>
+					<td><input type="text" name="jurusan" maxlength="14" placeholder="Jurusan" class="isi"></td>
+				</tr>
+				<tr>
+					<th></th>
+					<th>Nomor Ijazah SMA/SMK/Diploma III/S1</th>
+					<td>:</td>
+					<td><input type="text" name="jurusan" maxlength="14" placeholder="No ijazah" class="isi"></td>
+				</tr>
+				<tr>
+					<th></th>
+					<th>Tanggal Lulus</th>
+					<td>:</td>
+					<td><input type="date" name="tgl_lulus" class="isi"></td>
+				</tr>
+				</tbody>
+			</table>
+		</fieldset>
+    </form>
+		</tr>
+		</table>
+		<button type="submit" class="tombol">Kirim</button>
+</body>
+</html>

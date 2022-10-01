@@ -1,0 +1,84 @@
+body{
+    background-image: url(krim.jpg);
+}
+
+img{
+    max-width: 95%;
+}
+
+.judulatas{
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+th, td{
+    text-align: left;
+    width: 5px;
+    height: 2px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    font-size: 9px;
+    size: 14px;
+}
+
+b{
+    font-size: 15px;
+    margin-left: 15%;
+}
+
+h1{
+    cursor: pointer;
+    transition: .5s;
+    font-size: 15px;
+}
+
+h1:hover{
+    letter-spacing: 1px;
+    color: rgb(202, 148, 78);
+}
+
+td{
+    padding-left: 25px;
+}
+
+.kolom1, .kolom2, .kolom3{
+    border-radius: 13px;
+    background-color:rgb(243, 188, 117);
+    width: 70%;
+    height: 10%;
+    padding-top: 2px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 2px;
+    margin-left: 15%;
+}
+
+.kolom3{
+    padding-bottom: auto;
+    width: 70%;
+    height: auto;
+}
+
+.tombol{
+    width: 50%;
+    height: 20px;
+    margin-top: 12px;
+    border: none;
+    background-color:rgb(243, 188, 117);
+    font-size: 11px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+    margin-left: 25%;
+    justify-content: center;
+}
+
+.tombol:hover{
+    letter-spacing: 5px;
+}
+
+.kolom1, .kolom2{
+    width: 70%;
+    max-height: fit-content;
+    text-align: center;
+}
